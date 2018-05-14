@@ -5,7 +5,9 @@
 
 @section('content')
     @if ($post->image)
-        <img src="/storage/{{ $post->image }}" style="width: 100%" />
+        <figure>
+            <img src="/storage/{{ $post->image }}" style="width: 100%" />
+        </figure>
     @endif
 
     <div>

@@ -19,6 +19,9 @@ h6, .h6 {
   color: #333;
 }
 
+figure {
+  margin-bottom: 40px;
+}
 
 /*
  * Override Bootstrap's default container.
