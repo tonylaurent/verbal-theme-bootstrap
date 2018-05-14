@@ -1,7 +1,7 @@
 @extends('theme::layout')
 
 @section('content')
-    @each('theme.post-block', $posts, 'post')
+    @each('theme::post-block', $posts, 'post')
 
     <nav>
         <ul class="pager">
