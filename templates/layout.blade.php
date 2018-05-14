@@ -61,12 +61,9 @@
       </div>          
         
       <div class="row">
-        <div class="col-sm-8 blog-main">    
+        <div class="col-sm-12 blog-main">    
             @yield('content')
         </div>        
-    
-        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-        </div>         
       </div>
 
     </div><!-- /.container -->
