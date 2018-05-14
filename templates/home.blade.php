@@ -1,7 +1,7 @@
 @extends('theme::layout')
 
-@section('title', config('app.name'))
-@section('description', 'The official example template of creating a blog with Bootstrap.')
+@section('title', config('blog.name'))
+@section('description', config('blog.description'))
 
 @section('content')
     @each('theme::post-block', $posts, 'post')
