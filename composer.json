@@ -6,5 +6,12 @@
             "email": "contact@tony-laurent.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Verbal\\Theme\\Bootstrap\\ThemeServiceProvider"
+            ]
+        }
+    }
 }
