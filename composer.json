@@ -11,5 +11,12 @@
         "psr-4": {
             "Verbal\\Theme\\Bootstrap\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Verbal\\Theme\\Bootstrap\\ServiceProvider"
+            ]
+        }
     }
 }
