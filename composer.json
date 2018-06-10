@@ -15,7 +15,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Verbal\\Theme\\Bootstrap\\ServiceProvider"
+                "Verbal\\Theme\\Bootstrap\\ThemeServiceProvider"
             ]
         }
     }
