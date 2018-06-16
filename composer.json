@@ -6,7 +6,6 @@
             "email": "contact@tony-laurent.com"
         }
     ],
-    "require": {},    
     "autoload": {
         "psr-4": {
             "Verbal\\Theme\\Bootstrap\\": "src"
@@ -23,5 +22,5 @@
         "post-root-package-install": [
             "@php artisan vendor:publish --tag=theme --force"
         ]
-    },    
+    }
 }
