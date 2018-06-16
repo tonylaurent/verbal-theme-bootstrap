@@ -6,6 +6,7 @@
             "email": "contact@tony-laurent.com"
         }
     ],
+    "require": {},    
     "autoload": {
         "psr-4": {
             "Verbal\\Theme\\Bootstrap\\": "src"
